@@ -1,0 +1,146 @@
+/*内容部分开始*/
+.abmain1{
+	overflow: hidden;
+	height: 280px ;
+	background: #02bdd5;
+	text-align: center;
+	
+}
+.abmain1 h1{
+	margin-top: 140px;
+	color: #fff;
+	font-size: 40px;
+}
+.abmain1 p a,.abmain1 p span{
+	color:#fff;
+}
+.abmain1 p{
+	margin-top: 20px ;
+}
+.con{
+	height: 900px ;
+	width: 1170px ;
+	margin:0 auto;
+	/*border:1px solid red;*/
+}
+.conl,.conr{
+
+	height: 570px;
+	width: 570px ;
+	/*border: 1px solid gray;*/
+	margin-top: 100px;
+	/*display: none;*/
+}
+.conl{
+	float: left;
+}
+.conr{
+	float: right;
+}
+.con h2 {
+	display: none;
+}
+.conl p,.conr p{
+	display: none;
+	font-size: 12px;
+	line-height: 20px;
+	margin:10px 0 30px;
+
+}
+.add{
+	padding-left: 10px;
+	display: inline-block;
+	height: 40px ;
+	line-height: 40px ;
+	width: 570px;
+	font-size: 14px;
+	color: #919191;
+	margin-bottom: 20px;
+	border: 1px solid gray;
+	font-weight: normal;
+}
+select{
+	height: 30px;
+}
+.conl input,.conl textarea {
+	
+	outline: none;
+	
+	opacity: 0.8;
+	/*font-size: 18px;*/
+}
+.add span{
+	height: 40px ;
+	/*line-height: 40px;*/
+	width: 145px;
+	/*border: 1px solid red ;*/
+	float: right;
+	color: red;
+}
+.add span i{
+	display: inline-block;
+	height:10px;
+	width: 10px ;
+	background:#15b715;
+	border-radius: 50%;
+	float: right;
+	margin:10px 10px 0 0 ;
+
+}
+
+.conl input{
+	height: 38px;
+	border: none;
+	float: left;
+	width: 400px;
+}
+.conl textarea{
+	width: 570px ;
+	height: 150px;
+	padding-top: 10px;
+	margin-bottom: 20px;
+	border: 1px solid gray;
+	padding-left: 10px;
+
+
+}
+form,video{
+	display: none;
+}
+#sub{
+	width: 110px;
+	background: #009ace;
+	color:#fff;
+	padding-left: 5px;
+	border: #009ace;
+	cursor: pointer;
+	margin:20px 0 80px;
+}
+.conr video{
+	width: 570px;
+	height: 300px;
+}
+
+.conb{
+	display: 	none;
+	overflow: hidden;
+	height: 200px;
+	width: 100%;
+	/*border:1px solid blue;*/
+}
+.conb li{
+	height: 190px;
+	width: 270px;
+	/*border: 1px solid red;*/
+	float: left;
+	margin:0 11px 0 11px;
+	text-align: center;
+	background:#f7f7f7;
+}
+.conb li img{
+	
+	margin:25px  0;
+}
+.conb li p{
+	line-height: 25px;
+}
